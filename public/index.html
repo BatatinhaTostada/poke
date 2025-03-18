@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Pokémon</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao Mundo Pokémon!</h1>
+        <p>Escolha um Pokémon para ver os detalhes.</p>
+    </header>
+
+    <main>
+        <div class="pokemon-list">
+            <div class="pokemon-card" onclick="showDetails('pikachu')">
+                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png" alt="Pikachu">
+                <p>Pikachu</p>
+            </div>
+            <div class="pokemon-card" onclick="showDetails('charizard')">
+                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png" alt="Charizard">
+                <p>Charizard</p>
+            </div>
+            <div class="pokemon-card" onclick="showDetails('bulbasaur')">
+                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png" alt="Bulbasaur">
+                <p>Bulbasaur</p>
+            </div>
+        </div>
+
+        <div class="pokemon-details" id="pok
